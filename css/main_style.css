@@ -46,7 +46,8 @@ body {
   
 }
 .nav_container > dl {
-  flex-basis: 200px;
+  flex-basis: 300px;
+  /* height: 14.28%; */
   /* flex: 0 0 20%; */
   /* outline: 1px solid red; */
   text-align: center;
