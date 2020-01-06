@@ -28,10 +28,12 @@ body {
   width: 82%; height: 100%;
   background: #fff;
   /* display: none; */
-  left: -1920px;
+  left: -100%;
+  opacity: 0;
   transition-duration: 0.5s;
 }
 #category.ct_show {
+  opacity: 1;
   left: 0;
   /* display: block; */
 }
@@ -152,12 +154,14 @@ body {
 /* s3 */
 #s3 {
   background: #f15b22;
+  display: flex;
 } 
 .container {
   width: 80%;
   margin: 0 auto;
   /* outline: 1px solid yellow; */
   position: relative;
+  margin-top: auto;
   /* display: flex; */
   /* flex-wrap: wrap; */
   /* flex-direction: row;
@@ -195,6 +199,9 @@ body {
   background: #f15b22;
   display: flex;
   flex-direction: column;
+}
+#sub_banner > img {
+  width: 100%;
 }
 #s4 > .container {
   position: relative;
@@ -238,6 +245,10 @@ address {
 }
 #footer_info > a {
   color: #dfdfdf;
+}
+#footer_info  span {
+  margin-left: 1em;
+  margin-right: 1em;
 }
 #sns_icons {
   flex: 1 1 20%;

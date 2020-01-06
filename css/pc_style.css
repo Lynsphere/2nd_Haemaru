@@ -217,7 +217,7 @@
   display: flex;
   width: 50%; height: 100%;
   /* margin-left: 60px; */
-  margin-bottom: 60px;
+  margin-bottom: 4%;
   /* position: relative; */
 }
 #s3_box2 h3 {
@@ -267,7 +267,7 @@
   bottom: 0; right: 0;
   /* outline: 1px solid orange; */
   width: 35%;
-  /* padding-bottom: 1.7%; */
+  padding-bottom: 4%;
 }
 #s3_box3 > .menubox > div {
   margin-top: 9%;
