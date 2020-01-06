@@ -66,13 +66,11 @@ $('body').imagesLoaded(function(){
     $('.depth1 > li > a').mouseenter(function(){
         $('.depth2').addClass('show');
         $('.depth2_bg').addClass('show');
-        $('#header_wrap').css('background','#fff');
     });
 
     $('.depth2_bg').mouseleave(function(){
         $('.depth2_bg').removeClass('show');
         $('.depth2').removeClass('show');
-        $('#header_wrap').css('background','rgba(255,255,255,0.6)');
     });
 
   });

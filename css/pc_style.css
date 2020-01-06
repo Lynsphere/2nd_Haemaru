@@ -99,6 +99,7 @@
 
 
 /* s2 */
+
 #s2_info {
   width: 860px;
   margin: 0 auto;
@@ -109,12 +110,12 @@
   padding-bottom: 2.5%;
 }
 
-#s2_info  .right {
+#s2_info .right {
   float: right;
   margin-top: -45px;
   /* outline: 1px solid red; */
 }
-#s2_info  .right  a {
+#s2_info .right  a {
   color: #fff;
 }
 #s2_menu {
