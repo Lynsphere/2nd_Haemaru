@@ -12,7 +12,9 @@
     <!-- pc css -->
     <link rel="stylesheet" href="./css/pc_style.css" media="screen and (min-width:1200px)">
     <!-- tab css -->
-    <link rel="stylesheet" href="./css/tab_style.css" media="screen and (max-width:1199px)">
+    <link rel="stylesheet" href="./css/tab_style.css" media="(min-width:415px) and (max-width:1199px)">
+    <!-- phone css -->
+    <link rel="stylesheet" href="./css/phone_style.css" media="screen and (max-width:414px)">
     <!-- 제이쿼리 -->
     <script src="./js/jquery-3.4.1.min.js"></script>
     <!-- 이미지로드 -->
@@ -69,7 +71,7 @@
                 <dd><a href="#">소동물임상의학연구소</a></dd>
               </dl>
           </div>
-      </nav>
+      </nav><!-- end category -->
       <div id="header_wrap">
         <h1 id="logo">
           <a href="./index.html">
@@ -78,7 +80,7 @@
         </h1>
         <nav id="gnb">
           <ul class="depth1">
-            <li><a href="#">진료예약/상담</a>
+            <li><a href="#s2">진료예약/상담</a>
               <ul class="depth2">
                 <li><a href="#">예약안내</a></li>
                 <li><a href="#">진료예약</a></li>
@@ -86,7 +88,7 @@
                 <li><a href="./online_talk.html">온라인상담</a></li>
               </ul>
             </li>
-            <li><a href="#">진료안내</a>
+            <li><a href="./treatment1.html">진료안내</a>
               <ul class="depth2">
                 <li><a href="./treatment1.html">진료시간</a></li>
                 <li><a href="./treatment2.html">진료과목</a></li>
@@ -97,7 +99,7 @@
                 <li><a href="#">의료진 소개</a></li>
               </ul>
             </li>
-            <li><a href="#">병원소개</a>
+            <li><a href="#s3">병원소개</a>
               <ul class="depth2">
                 <li><a href="#s3">병원소개</a></li>
                 <li><a href="#">구조 및 시설</a></li>
@@ -293,8 +295,10 @@
                 <a href="#">이메일무단수집거부</a>
                 <address>경기도 성남시 분당구 황새울로 319번길 수의과학회관 1~4층</address>
                 <p>Tel. 031 ) 781 - 2992<span>|</span>Fax. 031 ) 781 - 2993</p>
-                <p>E-mail. help@haemaru.co.kr</p>
-                <p>&copy; 2016 HAEMARU Referral Animal Hospital All rights Reserved.</p>
+                <p>E-mail. help @ haemaru.co.kr</p>
+                <p>&copy; 2016 HAEMARU Referral Animal Hospital 
+                  <span class="enter"><br></span>
+                  All rights Reserved.</p>
               </div>
               <div id="sns_icons">
                 <a href="#"><img src="./imgs/FA.png" alt="페이스북"></a>

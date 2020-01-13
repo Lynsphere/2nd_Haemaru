@@ -43,16 +43,11 @@ body {
 .nav_container {
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column; */
   justify-content: flex-end;
-  /* align-items: flex-end; */
   
 }
 .nav_container > dl {
   flex-basis: 300px;
-  /* height: 14.28%; */
-  /* flex: 0 0 20%; */
-  /* outline: 1px solid red; */
   text-align: center;
   margin: 30px 50px 50px 50px;
 }
@@ -74,7 +69,7 @@ body {
 
 /* 메인메뉴 */
 #header_wrap {
-  background: rgba(255,255,255,1);
+  background: rgba(255,255,255,1) !important;
 }
 #util {
   position: absolute;

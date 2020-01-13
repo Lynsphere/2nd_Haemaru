@@ -65,7 +65,7 @@
 #gnb .depth1 > li > .depth2.show {
   top:0;
   opacity: 1;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
 }
 .depth2_bg {
   position: absolute;
@@ -79,7 +79,7 @@
 }
 .depth2_bg.show {
   opacity: 1;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
 }
 #gnb .depth1 > li > .depth2 > li {
   display: table;
@@ -274,11 +274,34 @@
   margin-left:13px;
   /* outline: 1px solid red; */
 }
-#s3_box2 .menu1 {
-  flex: 3 3 50%;
-  margin-top: 7px;
-  margin-right: 7px;
-  text-align: right;
+@media screen and (max-width:1920px) {
+  #s3_box2 .menu1 {
+    flex: 3 3 50%;
+    margin-top: 7px;
+    margin-right: 7px;
+    text-align: right;
+  }
+  
+  #s3_box2 > .menu1 > a:first-child,
+  #s3_box2 > .menu1 > a:nth-child(3) {
+    margin-right: 3px;
+  }
+}
+@media screen and (min-width:1921px) {
+  #s3_box2 .menu1 {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-top: 7px;
+    margin-right: 7px;
+    /* outline: 1px solid red; */
+    margin-left: 10px;
+  }
+  #s3_box2 > .menu1 > a:first-child,
+  #s3_box2 > .menu1 > a:nth-child(3) {
+    margin-right: 8px;
+  }
 }
 #s3_box2 > .menu1 > a > img {
   width: 190px;
@@ -326,12 +349,12 @@
   /* outline: 1px solid red; */
 }
 #s4_notice a {
-  font-size: 0.9vw;
-  color: #666;
+  font-size: 0.6vw;
+  /* color: #666; */
 } 
 #s4_notice span {
   margin-top: 3px;
-  font-size: 0.7vw;
+  font-size: 0.6vw;
   float: right;
   color: #666;
   padding-right: 3.5%;
@@ -368,10 +391,6 @@
   /* outline: 1px solid red; */
   margin-left: 8%;
 }
-#footer_info  span {
-  margin-left: 1em;
-  margin-right: 1em;
-}
 #sns_icons {
   flex: 1 1 20%;
   display: flex;
@@ -380,4 +399,7 @@
 }
 #sns_icons > a {
   margin-right: 20px;
+}
+#footer_info .enter {
+  display: none;
 }
